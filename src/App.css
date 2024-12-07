@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+#container{
+  background:linear-gradient(blue,skyblue);
+  width:30vw;
+  height: 80vh;
+  border: 1px solid black;
+  margin-top: 50px;
+  border: 10px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+form input{
+  height: 30px;
+  width: 250px;
+  outline: none;
+}
+form input[placeholder]{
+  padding-left: 20px;
+}
+form button{
+  height: 30px;
+  width:70px;
+  border: 2px solid white;
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+}
+i{
+  font-size: 50px;
+  margin-top: 50px;
+}
+.con{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+  padding-bottom: 50px;
+}
